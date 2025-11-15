@@ -25,7 +25,8 @@ class HandlingEvents extends Component {
           <div className='component-display'>{this.state.counter}</div>
           <button
             className='component-button default-button'
-            onClick={this.increment}
+            onClick={this.increment}//call method here, use this keyword in this method
+
           >
             ➕ Add 1
           </button>

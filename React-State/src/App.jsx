@@ -17,10 +17,10 @@ class App extends Component {
 
         {/* 1.2 */}
         {/* <InitializingState /> */}
-        <PassingPropsToState batchtTitle='DEC 2025' />
+        {/* <PassingPropsToState batchtTitle='DEC 2025' /> */}
 
         {/* 1.3 */}
-        {/* <HandlingEvents /> */}
+        <HandlingEvents />
 
         {/* 1.4 */}
         {/* <UpdatingState /> */}
