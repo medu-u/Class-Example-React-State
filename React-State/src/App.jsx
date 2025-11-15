@@ -13,11 +13,11 @@ class App extends Component {
     return (
       <div>
         {/* 1.1 */}
-        <NormalVariables />
+        {/* <NormalVariables /> */}
 
         {/* 1.2 */}
         {/* <InitializingState /> */}
-        {/* <PassingPropsToState batchtTitle='DEC 2025' /> */}
+        <PassingPropsToState batchtTitle='DEC 2025' />
 
         {/* 1.3 */}
         {/* <HandlingEvents /> */}
