@@ -23,12 +23,12 @@ class App extends Component {
         {/* <HandlingEvents /> */}
 
         {/* 1.4 */}
-        <UpdatingState />
+        {/* <UpdatingState /> */}
 
         {/* 1.5 */}
-        {/* <MyWillMountAndDidMount /> */}
-        {/* <MyComponentDidUpdate /> */}
-        {/* <MyComponentWillUnmount />  */}
+        {/* <MyWillMountAndDidMount />
+        <MyComponentDidUpdate /> */}
+        <MyComponentWillUnmount /> 
       </div>
     );
   }

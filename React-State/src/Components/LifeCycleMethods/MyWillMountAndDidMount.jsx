@@ -10,13 +10,13 @@ class MyWillMountAndDidMount extends Component {
     };
   }
 
-  // componentWillMount() {
-  //   console.log('componentWillMount: Component is about to mount...');
-  //   this.setState({
-  //     randomText: 'Preparing to load...',
-  //     lifecyclePhase: 'componentWillMount triggered',
-  //   });
-  // }
+  componentWillMount() {
+    console.log('componentWillMount: Component is about to mount...');
+    this.setState({
+      randomText: 'Preparing to load...',
+      lifecyclePhase: 'componentWillMount triggered',
+    });
+  }
 
   componentDidMount() {
     console.log('componentDidMount: Component has mounted.');
@@ -32,7 +32,7 @@ class MyWillMountAndDidMount extends Component {
         randomText: '🎉 Hello World! Data loaded successfully.',
         lifecyclePhase: 'Data fetched after DidMount',
       });
-    }, 4000);
+    }, 5000);
   }
 
   render() {
@@ -52,3 +52,7 @@ class MyWillMountAndDidMount extends Component {
 }
 
 export default MyWillMountAndDidMount;
+// 1. constructor method, component is initialized
+// 2. before rendering the data componentWillMount method,  component is about to mount
+// 3. then render method  component is rendering
+// 4. then finally componentDidMount method, component has mounted

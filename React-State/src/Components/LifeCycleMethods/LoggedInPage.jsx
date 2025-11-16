@@ -11,7 +11,7 @@ class LoggedInPage extends Component {
   }
 
   componentWillUnmount() {
-    alert('You have successfully logged out.');
+    alert('You have successfully logged in.');
   }
 
   render() {
